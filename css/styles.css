@@ -725,10 +725,17 @@ body {
   border-radius: 50%;
   background: var(--footer-text-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
+  color: var(--titel-text-color);
 }
 
 .close-icon {
-  fill: var(--titel-text-color);
+  fill: currentColor;
+}
+
+.modal-close:hover,
+.modal-close:focus {
+  background: var(--button-hover-background);
+  color: var(--background-body-color);
 }
 
 .is-hidden {
